@@ -1,0 +1,19 @@
+# C++ / Visual Studio
+.vs/
+bin/
+obj/
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# React / Node
+node_modules/
+dist/
+.next/
