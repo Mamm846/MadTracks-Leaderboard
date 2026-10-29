@@ -2,18 +2,31 @@
 .vs/
 bin/
 obj/
+Debug/
+Release/
+x64/
 *.exe
 *.obj
 *.pdb
 *.ilk
+*.ipch
+*.tlog
+*.user
+*.suo
+*.log
 
 # Python
 __pycache__/
 *.py[cod]
 venv/
 .env
+MadTracksClient/SupabaseConfig.h
 
 # React / Node
 node_modules/
 dist/
 .next/
+
+# Données et journaux locaux
+Logs/
+records.txt
