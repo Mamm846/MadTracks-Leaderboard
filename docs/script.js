@@ -1,5 +1,5 @@
 const url = "https://mmzhuycnbmqzcicknzjr.supabase.co/rest/v1/records?select=player_name,track_id,time";
-const apiKey = "******";
+const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1temh1eWNuYm1xemNpY2tuempyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyMjI3NzIsImV4cCI6MjEwODc5ODc3Mn0.ZdU-gDN2cpzVKijt8gEBpMETRAguwlCdB5A0ANiZpzE";
 const nomsCircuits = {
     210: "Training day", 275: "Black out", 338: "Heavy croquet", 339: "Bob's leg",
     397: "Fast food", 449: "Toygara falls", 466: "Rock and race", 497: "The persuaders",
