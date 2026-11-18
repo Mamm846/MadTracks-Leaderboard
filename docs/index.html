@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mad Tracks — Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <header>
+            <div>
+                <p class="eyebrow">Mad Tracks</p>
+                <h1>Leaderboard</h1>
+            </div>
+            <p class="intro">Les meilleurs temps de la communauté, circuit par circuit.</p>
+        </header>
+
+        <section class="controls" aria-label="Sélection du circuit">
+            <div>
+                <label class="control-label" for="circuit">Circuit</label>
+                <select id="circuit" disabled>
+                    <option value="">Chargement des circuits...</option>
+                </select>
+            </div>
+            <p id="statut" class="statut" aria-live="polite">Chargement du classement...</p>
+        </section>
+
+        <section class="leaderboard" aria-labelledby="titre-classement">
+            <div class="leaderboard-heading">
+                <h2 id="titre-classement">Classement</h2>
+                <p class="hint">Temps les plus rapides</p>
+            </div>
+            <div id="podium" class="podium"></div>
+            <ol id="classement" class="rows"></ol>
+            <p id="vide" class="empty hidden">Aucun record enregistré sur ce circuit.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

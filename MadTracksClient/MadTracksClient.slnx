@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MadTracksClient.vcxproj" Id="570007ee-9ee9-4913-891a-e3d8f598dd73" />
+</Solution>
