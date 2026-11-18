@@ -73,8 +73,4 @@ Le projet utilise WinHTTP pour envoyer les records vers l'endpoint REST de Supab
 
 Les dossiers de compilation, les journaux, les exécutables, les configurations locales et les fichiers utilisateur Visual Studio sont exclus du contrôle de version par [.gitignore](.gitignore).
 
-## Sécurité
 
-- Ne pas publier de clé `service_role`.
-- Ne pas commiter de données personnelles ou de fichiers de records locaux.
-- Vérifier les politiques RLS Supabase avant de rendre la table accessible publiquement.
